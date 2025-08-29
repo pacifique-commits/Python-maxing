@@ -17,3 +17,14 @@ devops = ("Linux","vagrant","Aws", "python", "docker","Kubernetes")
 # print (devops[0])
 # print (devops[-1])
 print (devops[2:4][0])
+
+print ("############################")
+print ("Dictionary slicing")
+skills = {
+    "devops":("Linux","vagrant","Aws", "python", "docker","Kubernetes")
+    ,"developemet": ("HTML","CSS","JS","REACT","NODEJS")
+}
+
+print (skills ["devops"][0:4][2])
+print (skills ["developemet"][2:4][0])
+print (skills ["developemet"])
