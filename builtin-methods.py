@@ -17,6 +17,7 @@ seq1 = (
 ipiaddr=print("/".join(seq1))
 '''
 #list of mountains 
+'''
 mountains = ["Everest","Himalaya","kalisimbi","Kirimanjaro","Alps"]
 print(mountains)
 mountains.append("oregon mount")
@@ -25,3 +26,13 @@ mountains.extend(["Mt kamata","Mt satpuda"])
 mountains.insert(2 , "Mt aso")
 print(mountains)
 print(mountains.pop(3))
+'''
+
+# Dict
+Python_expert = {
+    "Name":"Pacino",
+    "skill":"Python",
+    "hobby":"coding"
+
+}
+print (Python_expert.values())
