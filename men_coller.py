@@ -1,2 +1,3 @@
-import men
-men.men_s("peter",30)
+from men import *
+# men.
+men_s("peter",30)
